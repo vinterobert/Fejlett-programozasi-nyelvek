@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/vince/OneDrive/Desktop/C++/Fejlett-programozasi-nyelvek/labor3/List.cpp
+List.h
+C:/Users/vince/OneDrive/Desktop/C++/Fejlett-programozasi-nyelvek/labor3/List.h
+iostream
+-
+
+C:/Users/vince/OneDrive/Desktop/C++/Fejlett-programozasi-nyelvek/labor3/List.h
+
