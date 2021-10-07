@@ -4,6 +4,7 @@
 
 #include "List.h"
 #include <iostream>
+
 using namespace std;
 
 List::List() {
@@ -21,25 +22,35 @@ List::~List() {
 }
 
 bool List::exists(int d) const {
-    return false;
+    if (first == nullptr) {
+        return false;
+    }
+    Node *it = first;
+    while (it != nullptr) {
+        if( it->value == d) {
+            return true;
+        }
+    }
 }
+
+
+
 
 int List::size() const {
     return nodeCounter;
 }
 
 bool List::empty() const {
-    if(nodeCounter == 0)
-    {
+    if (nodeCounter == 0) {
         return true;
-    }else{
+    } else {
         return false;
     }
 }
 
 void List::insertFirst(int d) {
-    Node *newNode=new Node(d,first);
-    first=newNode;
+    Node *newNode = new Node(d, first);
+    first = newNode;
     nodeCounter++;
 }
 
@@ -52,12 +63,12 @@ void List::remove(int d, List::DeleteFlag df) {
 }
 
 void List::print() const {
-    Node * it = first;
-    cout<<"[";
-    while ( it != nullptr){
-        cout << it->value<<" ";
+    Node *it = first;
+    cout << "[";
+    while (it != nullptr) {
+        cout << it->value << " ";
         it = it->next;
 
     }
-    cout<<"]"<< endl;
+    cout << "]" << endl;
 }

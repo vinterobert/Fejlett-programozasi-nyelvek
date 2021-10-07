@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/vince/OneDrive/Desktop/C++/Fejlett-programozasi-nyelvek/labor3/List.cpp" "C:/Users/vince/OneDrive/Desktop/C++/Fejlett-programozasi-nyelvek/labor3/cmake-build-debug/CMakeFiles/labor3.dir/List.cpp.obj"
+  "C:/Users/vince/OneDrive/Desktop/C++/Fejlett-programozasi-nyelvek/labor3/Stack.cpp" "C:/Users/vince/OneDrive/Desktop/C++/Fejlett-programozasi-nyelvek/labor3/cmake-build-debug/CMakeFiles/labor3.dir/Stack.cpp.obj"
   "C:/Users/vince/OneDrive/Desktop/C++/Fejlett-programozasi-nyelvek/labor3/main.cpp" "C:/Users/vince/OneDrive/Desktop/C++/Fejlett-programozasi-nyelvek/labor3/cmake-build-debug/CMakeFiles/labor3.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

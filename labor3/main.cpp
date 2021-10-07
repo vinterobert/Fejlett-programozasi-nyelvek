@@ -7,7 +7,7 @@ int main() {
     List list;
     for(int i=0; i<10; ++i){
         list.insertFirst(i);
-        list.print();
+//        list.print();
     }
     return 0;
 }

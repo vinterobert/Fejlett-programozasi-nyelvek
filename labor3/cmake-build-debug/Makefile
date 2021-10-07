@@ -152,6 +152,30 @@ List.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor3.dir\build.make CMakeFiles/labor3.dir/List.cpp.s
 .PHONY : List.cpp.s
 
+Stack.obj: Stack.cpp.obj
+.PHONY : Stack.obj
+
+# target to build an object file
+Stack.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor3.dir\build.make CMakeFiles/labor3.dir/Stack.cpp.obj
+.PHONY : Stack.cpp.obj
+
+Stack.i: Stack.cpp.i
+.PHONY : Stack.i
+
+# target to preprocess a source file
+Stack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor3.dir\build.make CMakeFiles/labor3.dir/Stack.cpp.i
+.PHONY : Stack.cpp.i
+
+Stack.s: Stack.cpp.s
+.PHONY : Stack.s
+
+# target to generate assembly for a file
+Stack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor3.dir\build.make CMakeFiles/labor3.dir/Stack.cpp.s
+.PHONY : Stack.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -188,6 +212,9 @@ help:
 	@echo ... List.obj
 	@echo ... List.i
 	@echo ... List.s
+	@echo ... Stack.obj
+	@echo ... Stack.i
+	@echo ... Stack.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

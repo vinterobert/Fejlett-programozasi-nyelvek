@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/labor3.dir/List.cpp.obj"
+  "CMakeFiles/labor3.dir/Stack.cpp.obj"
   "CMakeFiles/labor3.dir/main.cpp.obj"
   "labor3.exe"
   "labor3.exe.manifest"
